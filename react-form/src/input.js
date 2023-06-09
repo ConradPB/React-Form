@@ -8,11 +8,11 @@ function Input() {
   return (
     <>
       <div className={styles.emailContainer}>
-        <h2>Let's stay in touch.</h2>
+        <h2>Let's stay connected.</h2>
         <p>
-          Sign up for our newsletter to stay up-to-date on the latest products,
-          receive exclusive discounts, and connect with other programmers who
-          share your passion for all things tech.
+          stay up-to-date with our latest products,
+          receive exclusive discounts, and connect with us. All you have to do is to
+          Sign up for our newsletter.
         </p>
         <form>
           <label for="email">Email: </label>
