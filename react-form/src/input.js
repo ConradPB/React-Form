@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from "./Input.module.css";
 
 function Input() {
   const [userInput, setUserInput] = useState('');
@@ -10,9 +11,9 @@ function Input() {
       <div className={styles.emailContainer}>
         <h2>Let's stay connected.</h2>
         <p>
-          stay up-to-date with our latest products,
-          receive exclusive discounts, and connect with us. All you have to do is to
-          Sign up for our newsletter.
+          If you would like to stay up-to-date with our latest products, connect
+          with other students who share your interests and passion 
+          and receive unique offers, please sign up for our newsletter 
         </p>
         <form>
           <label for="email">Email: </label>
