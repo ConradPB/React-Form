@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Input.module.css";
-
+import './App.css';
 
 function Input() {
   const [userInput, setUserInput] = useState('');
