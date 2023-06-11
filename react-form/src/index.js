@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-function Index() {
-  const [userInput, setUserInput] = useState('');
-  function handleChange(e) {
-    setUserInput(e.target.value);
-  }
-  return <input onChange={handleChange} type='text' />;
-}
+import App from './App';
+
+ReactDOM.createRoot(
+  document.getElementById('app')
+).render(<App />);
